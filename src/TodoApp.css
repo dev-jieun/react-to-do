@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inner_container {
+  background-color: white;
+  width: 500px;
+  height: 800px;
+  border-radius: 1rem;
+  box-shadow: -12px 10px 31px -8px rgba(0, 0, 0, 0.21);
+  -webkit-box-shadow: -12px 10px 31px -8px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: -12px 10px 31px -8px rgba(0, 0, 0, 0.21);
+}

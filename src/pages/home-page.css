@@ -1,0 +1,9 @@
+.home {
+  display: flex;
+  padding: 20px;
+}
+
+.home .home_title {
+  color: #8ab4f8;
+  font-weight: bold;
+}

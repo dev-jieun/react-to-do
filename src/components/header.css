@@ -1,0 +1,36 @@
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lavenderblush;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.header_right {
+  display: flex;
+  gap: 15px;
+}
+
+.header .header_icon {
+  display: inline;
+  width: 25px;
+  height: 25px;
+}
+
+.header .dark_mode_icon {
+  color: salmon !important;
+}
+
+.icon_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  background-color: antiquewhite;
+  padding: 5px 10px;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
