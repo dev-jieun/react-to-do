@@ -1,0 +1,23 @@
+.list_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.list_wrap .list_title {
+  display: flex;
+  gap: 5px;
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 15px;
+}
+
+.list_wrap .list_items {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.list_wrap .list_items .item {
+  display: flex;
+  gap: 5px;
+}
